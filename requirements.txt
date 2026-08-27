@@ -1,7 +1,5 @@
 streamlit
-pandas
 plotly
-openpyxl
-plotly.express
+pandas
 joblib
-json
+scikit-learn
