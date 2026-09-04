@@ -12,7 +12,7 @@ from PIL import Image
 # =========================================================================
 icon = Image.open("favicon.ico")
 
-pgtitle = "AI 智慧健康大數據 ── 壓力風險評估系統"
+pgtitle = "目標:心理壓力"
 pgmenu1 = "1. 研究"
 pgmenu2 = "2. 偵測"
 
@@ -96,7 +96,7 @@ def rescale_to_model(val, min_val, max_val):
 # =========================================================================
 if page == pgmenu1:
 
-    st.title("🧠 AI 智慧健康大數據 ── 壓力風險評估系統")
+    st.title("目標:心理壓力")
     st.caption("研究說明：從大規模睡眠與生活行為資料，建立一套可解釋的壓力指數預測模型。")
 
     st.subheader("0. 研究背景與資料集")
